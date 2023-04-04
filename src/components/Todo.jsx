@@ -13,7 +13,7 @@ function Todo() {
         .then((res) => res.json())
         .then((data) => {
             setTimeout(() => {
-                console.log(isMounted)
+                
                 if(isMounted.current){
                     setTodo(data)
                     setLoading(false)
