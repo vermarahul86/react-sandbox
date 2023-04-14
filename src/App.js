@@ -1,9 +1,9 @@
-import UseCallbackExample from "./components/UseCallbackExample";
+import CustomHookExampl1 from "./components/CustomHookExampl1";
 
 function App() {
   return (
     <div className="App">
-      <UseCallbackExample/>
+      <CustomHookExampl1/>
     </div>
   );
 }
